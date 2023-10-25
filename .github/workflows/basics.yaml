@@ -11,5 +11,7 @@ jobs:
         with:
           node-version: '18'
       - run: node --version
+      - run: npm init -y
+      - run: node app.js
 
 
